@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class AutoAppConfigTest {
 
     @Test
-    void basicScan(){
+    void basicScan() {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
 
 

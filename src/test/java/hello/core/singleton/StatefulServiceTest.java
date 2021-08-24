@@ -27,7 +27,7 @@ class StatefulServiceTest {
 
         //ThreadA : 사용자A 주문 금액 조회
 
-        assertThat(statefulService1.getPrice()).isEqualTo(10000);
+        assertThat(statefulService1.getPrice()).isEqualTo(20000);
     }
     static class TestConfig{
         @Bean
